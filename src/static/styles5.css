@@ -1,0 +1,175 @@
+body {
+    /*background-color: #eceff1;*/
+    /*background: #232526; !* fallback for old browsers *!*/
+    /*background: -webkit-linear-gradient(to bottom, #232526, #414345); !* Chrome 10-25, Safari 5.1-6 *!*/
+    /*background: linear-gradient(to bottom, #232526, #414345); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
+    /*background: #948e99; !* fallback for old browsers *!*/
+    /*background: -webkit-linear-gradient(to top, #948e99, #2e1437); !* Chrome 10-25, Safari 5.1-6 *!*/
+    /*background: linear-gradient(to top, #948e99, #2e1437); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
+}
+
+.indicators-row {
+    padding-top: 140px;
+    /*min-height: 140px;*/
+}
+
+.indicator {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    margin-top: -10px;
+    height: 120px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.indicator-value {
+
+    color: #15849b;
+    font-size: 4rem;
+
+}
+
+.indicator-title {
+    color: #a7a7a7;
+    font-size: 1.3rem;
+}
+
+.oughter-indicator-l1 {
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.oughter-indicator-l2 {
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    height: 100px;
+    background-color: #f6f6f6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar {
+    background-color: #f4f4f4;
+
+}
+
+.large .chart {
+    height: 800px;
+    /*border: 1px solid rgba(0, 0, 0, 0);*/
+    /*border-radius: 2%;*/
+    /*/*background-color: white;*/
+    /*box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);*/
+}
+
+/*   ----------------   */
+.selected_date_mp {
+    color: #15849b !important;
+}
+
+.col_mp.span_1_of_3_mp:hover {
+    background-color: #15849b !important;
+}
+
+.content {
+    border-bottom-color: rgba(256, 256, 256, 1) !important;
+    /*background: rgba(237, 237, 237, 1) !important;*/
+    /*background: -moz-linear-gradient(top, rgba(237, 237, 237, 1) 0%, rgba(245, 245, 245, 1) 53%, rgba(255, 255, 255, 1) 100%) !important;*/
+    /*background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(237, 237, 237, 1)), color-stop(53%, rgba(245, 245, 245, 1)), color-stop(100%, rgba(255, 255, 255, 1))) !important;*/
+    /*background: -webkit-linear-gradient(top, rgba(237, 237, 237, 1) 0%, rgba(245, 245, 245, 1) 53%, rgba(255, 255, 255, 1) 100%) !important;*/
+    /*background: -o-linear-gradient(top, rgba(237, 237, 237, 1) 0%, rgba(245, 245, 245, 1) 53%, rgba(255, 255, 255, 1) 100%) !important;*/
+    /*background: -ms-linear-gradient(top, rgba(237, 237, 237, 1) 0%, rgba(245, 245, 245, 1) 53%, rgba(255, 255, 255, 1) 100%) !important;*/
+    /*background: linear-gradient(to bottom, rgba(237, 237, 237, 1) 0%, rgba(245, 245, 245, 1) 53%, rgba(255, 255, 255, 1) 100%) !important;*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff', GradientType=0) !important;*/
+}
+
+.menu.custom {
+    border-bottom: 2px solid #80b0b2 !important;
+}
+
+.menu.custom .active {
+    border-top-width: 2px !important;
+    border-color: #80b0b2 !important;
+    margin-bottom: -2px !important;
+}
+
+button.button.white-button {
+    background: white !important;
+    border: 1px solid rgba(34, 36, 38, .15) !important;
+    border-radius: .28571429rem !important;
+    color: #cacaca;
+    font-weight: normal;
+    text-align: left;
+}
+
+.noData {
+    margin-left: 30%;
+}
+
+.buyer {
+    cursor: pointer;
+    color: #4183C4
+}
+
+.loader-row {
+    position: absolute;
+    padding-left: 45%;
+}
+
+.positive {
+    text-align: center;
+    border-bottom: 2px solid #088e10 !important;
+}
+
+.negative {
+    text-align: center;
+    border-bottom: 2px solid #ffafaa !important;;
+
+}
+
+.table-subheader {
+    color: rgba(0, 0, 0, .87);
+    font-weight: 700;
+}
+
+.no-border {
+    border-bottom-color: rgba(256, 256, 256, 1) !important;
+    border-left-color: rgba(256, 256, 256, 1) !important;
+    border-right-color: rgba(256, 256, 256, 1) !important;
+    border-top-color: rgba(256, 256, 256, 1) !important;
+    box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0) !important;
+}
+
+.tender-row:hover {
+    cursor: pointer;
+}
+
+.inner-table-first {
+    border-right: 1px solid rgba(34, 36, 38, .1) !important;
+    background-color: white;
+}
+
+.toggle-heatmap {
+    text-align: right;
+    padding-right: 45px;
+}
+
+.toggle-heatmap > span {
+    color: #6c6c6c;
+}
+
+.custom.dimmer {
+    margin-top: 40px;
+}
+
+.table-load .custom.dimmer {
+    margin-top: 0px !important;
+}
